@@ -8,7 +8,7 @@ html{
     font-family: 62.5%;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Super Mario 256', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -181,4 +181,22 @@ main{
     background: var(--negro);
     grid-column: 5 / 13;
     grid-row: 16 / 17;
+}
+.buttom{
+    margin-left: 1.5rem;
+    width: 10rem;
+    height: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'consolas';
+    font-size: 1.4rem;
+}
+.buttom input{
+    margin-top: .5rem;
+    align-self: flex-start;
+    width: 70%;
+    height: 2rem;
+    cursor: pointer;
 }

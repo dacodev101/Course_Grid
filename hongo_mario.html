@@ -42,6 +42,18 @@
         <div class="item30"></div>
         <div class="item31"></div>
       </div>
+      <div class="buttom">
+        <label for="colorPick">Cambiale el color a "Toad"</label>
+        <input type="color" id="colorPick" name="colorPick"/>
+      </div>
     </main>
+    <script>
+      let colorInput = document.querySelector('#colorPick');
+
+      colorInput.addEventListener('input',() => {
+         let color = colorInput.value;
+         document.documentElement.style.setProperty('--rojo', color);
+      })
+    </script>
   </body>
 </html>
